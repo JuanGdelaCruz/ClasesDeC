@@ -1,4 +1,4 @@
-# ClasesAndrea
+# Introducción al lenguaje de programación C
 ## Contenidos
 
 1. main  
