@@ -8,7 +8,7 @@
 	2.3 short / signed short / unsigned short\
 	2.4 long / unsigned long  
 	2.5 float  
-	2.6 double / long double
+	2.6 double / long double\
 	2.7 void  
 3. Operators : arithmetic, increment/decrement, assigment, relational, logical, sizeof  
 4. Pointers: indirection (*) , address-of (&)  
