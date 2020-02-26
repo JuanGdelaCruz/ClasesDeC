@@ -3,9 +3,9 @@
 
 1. main  
 2. types  
-	2.1 char / signed  char / unsigned char
+	2.1 char / signed  char / unsigned char\
 	2.2 int / unsigned int  
-	2.3 short / signed short / unsigned short
+	2.3 short / signed short / unsigned short\
 	2.4 long / unsigned long  
 	2.5 float  
 	2.6 double / long double
