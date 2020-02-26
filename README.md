@@ -13,7 +13,8 @@
 3. Operators : arithmetic, increment/decrement, assigment, relational, logical, sizeof  
 4. Pointers: indirection (*) , address-of (&)  
 5. Arrays  
-	5.1 Strings: size_t strlen(const char   *s),  char *strcpy(char *dest, const char *src),  int strcmp(const char *s1, const char *s2),  char *strcat(char *dest, const char *src);        #include <string.h>  
+	5.1 Strings:\
+	size_t strlen(const char   *s),  char *strcpy(char *dest, const char *src),  int strcmp(const char *s1, const char *s2),  char *strcat(char *dest, const char *src);        #include <string.h>  
 6. Loops: while, do while; for,  
 7. Standard IO (stdin=0 , stdout=1, stderr= 2)  #include <stdio.h>   
 8. Return & Exit  
