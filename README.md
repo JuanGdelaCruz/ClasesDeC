@@ -31,7 +31,12 @@
 	11.4 waitpid(pid_t pid, int *status, int options)\
 	11.5 stat(const char *const _FileName, struct stat *const _Stat)\
 	11.6 unsigned int alarm(unsigned int seconds\
-	11.7 int sigaction(int signum, const struct sigaction *act,                  struct sigaction *oldact);\
+	11.7 int sigaction(int signum, const struct sigaction *act,struct sigaction *oldact);\
 	11.8 int kill(pid_t pid, int sig)\
 12. errno  
-13. structures  
+13. structures\
+\
+\
+\
+Para compilar un programa c se usa el siguiente comando:\
+gcc ./NombreFichero.c	 -o 	./NombreSalida
