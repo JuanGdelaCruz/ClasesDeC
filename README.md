@@ -37,6 +37,5 @@
 13. structures\
 \
 \
-\
 Para compilar un programa c se usa el siguiente comando:\
-gcc ./NombreFichero.c	 -o 	./NombreSalida
+`gcc ./NombreFichero.c	 -o 	./NombreSalida`
