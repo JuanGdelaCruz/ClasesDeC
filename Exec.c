@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
             int i;
             for (i = 0; i < n; i++)
                 string[i] = buffer[i];
-            string[i + 1] = '\0';
+            string[n] = '\0';
             fprintf(stdout, "child> %s", string);
         }
         break;

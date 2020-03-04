@@ -21,15 +21,11 @@ int main(int argc, char *argv[])
     {
         close(fd[1]);
         char buffer[128];
-        char *string = malloc(sizeof(char) * 128);
         int n = 0;
         while ((n = read(fd[0], buffer, 1)) > 0)
         {
-            int i;
-            for (i = 0; i < n; i++)
-                string[strlen(string) + i] = buffer[i];
+             write(1, buffer, n);         
         }
-        fprintf(stdout, "%s", string);
         close(fd[0]);
         break;
     }
